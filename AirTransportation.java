@@ -29,5 +29,20 @@ public class AirTransportation extends Transport {
     public int getLicensePlate(){
         return this.numberOfContainers;
     }
+    
+    public String getTransportType(){
+        return "Transporte Aereo";
+    }
+    
+    public String toString() {
+        final StringBuilder sb = new StringBuilder();
+        
+        sb.append(String.format("%15s: %s\n", "Name", this.name));
+        sb.append(String.format("%15s: %s\n", "Number Of Containers", this.numberOfContainers));
+        return sb.toString();
+    }
+    
+    
+    
 }
 

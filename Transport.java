@@ -9,12 +9,12 @@ public class Transport {
 
     private static int auto = 0; 
 
-    private final String id;
-    private String origin;
-    private String destination;
-    private double price;
-    private double fees;
-    private boolean available;
+    protected final String id;
+    protected String origin;
+    protected String destination;
+    protected double price;
+    protected double fees;
+    protected boolean available;
 
     public Transport() {
         this.id = "T-" + String.format("%03d", ++auto);
