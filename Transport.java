@@ -25,6 +25,7 @@ public class Transport {
         this.available = true;
     }
 
+   
     public String getOrigin() {
         return this.origin;
     }
@@ -121,5 +122,12 @@ public class Transport {
     public String getTransportType() {
         return "Transporte genérico";
     }
-
+    
+    
+  
+    
+    
+    
+    
+    
 }

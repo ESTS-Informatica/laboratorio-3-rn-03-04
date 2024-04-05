@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 public class AirTransportationTest {
 
     private AirTransportation airTransport;
-
+    
     @BeforeEach
     public void setUp() {
         airTransport = new AirTransportation("Boeing 747", 10);
